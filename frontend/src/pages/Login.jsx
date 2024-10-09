@@ -88,7 +88,7 @@ console.log(role)
       
         <button
           className="flex items-center justify-center mt-5 bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded w-full"
-         onClick={()=> window.location.href = "http://localhost:3000/api/auth/google"}
+         onClick={()=> window.location.href = `${import.meta.env.VITE_API_URL}/api/auth/google`}
         >
           <FaGoogle className="mr-2" />
           Login with Google
