@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo1.png';
+import logo from '../../assets/NavLogoMain.png';
 import { AiOutlineUser } from 'react-icons/ai';
 import { HiOutlineShoppingBag } from 'react-icons/hi2';
 import { GoHeart } from 'react-icons/go';
@@ -22,8 +22,8 @@ function Navbar() {
         {/* //firstrow */}
         <div className="flex justify-between items-center p-2 mb-6">
           <div className="flex items-center space-x-2">
-            <img src={logo} className="h-8" />
-            <p className="text-xl tracking-wide font-semibold">Ecommerce</p>
+            <img src={logo} className="h-16 w-16 rounded-full object-contain" />
+            <p className="text-xl tracking-wide font-semibold">WebifyMart</p>
           </div>
 
           <div className="w-96">
